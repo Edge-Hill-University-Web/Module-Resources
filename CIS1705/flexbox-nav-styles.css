@@ -1,0 +1,22 @@
+nav {
+    border: 5px solid #000000;
+}
+ 
+nav>p {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+}
+ 
+nav>p:nth-child(1) {
+    background-color: #000099;
+}
+ 
+nav>p:nth-child(2) {
+    background-color: #990000;
+}
+ 
+nav>p:nth-child(3) {
+    background-color: #009900;
+}

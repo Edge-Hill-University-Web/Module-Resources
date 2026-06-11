@@ -1,0 +1,146 @@
+.row {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.row:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+@media screen {
+    .column {
+        float: left;
+        box-sizing: border-box;
+    }
+    .small-1 {
+        width: 8.333%;
+    }
+    .small-2 {
+        width: 16.666%;
+    }
+    .small-3 {
+        width: 25%;
+    }
+    .small-4 {
+        width: 33.333%;
+    }
+    .small-5 {
+        width: 41.666%;
+    }
+    .small-6 {
+        width: 50%;
+    }
+    .small-7 {
+        width: 58.333%;
+    }
+    .small-8 {
+        width: 66.666%;
+    }
+    .small-9 {
+        width: 75%;
+    }
+    .small-10 {
+        width: 83.333%;
+    }
+    .small-11 {
+        width: 91.666%;
+    }
+    .small-12 {
+        width: 100%;
+    }
+    .small-hidden {
+        display: none;
+    }
+}
+
+@media screen and (min-device-width: 43em) {
+    .large-1 {
+        width: 8.333%;
+    }
+    .large-2 {
+        width: 16.666%;
+    }
+    .large-3 {
+        width: 25%;
+    }
+    .large-4 {
+        width: 33.333%;
+    }
+    .large-5 {
+        width: 41.666%;
+    }
+    .large-6 {
+        width: 50%;
+    }
+    .large-7 {
+        width: 58.333%;
+    }
+    .large-8 {
+        width: 66.666%;
+    }
+    .large-9 {
+        width: 75%;
+    }
+    .large-10 {
+        width: 83.333%;
+    }
+    .large-11 {
+        width: 91.666%;
+    }
+    .large-12 {
+        width: 100%;
+    }
+    .small-hidden {
+        display: block;
+    }
+}
+label {
+    display: block;
+    cursor: pointer;
+}
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea, select {
+    box-sizing: border-box;
+    width: 100%;
+}
+.hidden {
+    display: none;
+}
+li.seen h2 {
+    color: #00aa00;
+}
+li.seen a.seen {
+    display: none;
+}
+a.not-seen {
+    display: none;
+}
+li.seen a.not-seen {
+    display: inline;
+}
+
+
+.reviews {
+    display: none;
+}
+.show-reviews .reviews {
+    display: block;
+}
+.show-reviews .show {
+    display: none;
+}
+.hide {
+    display: none;
+}
+.show-reviews .hide {
+    display: inline-block;
+}
+
+#status {
+    position: absolute;
+    background: #ffffaa;
+    border: 1px solid #666600;
+    border-radius: 3px;
+    padding: 0.3rem 0.5rem;
+    box-shadow: 1px 1px 5px #222222;
+    z-index: 1;
+}
